@@ -2,16 +2,33 @@ package ru.job4j;
 
 public class Multiple {
     public static void main(String[] args) {
-        System.out.println("1 * 0 = 0");
-        System.out.println("1 * 1 = 1");
-        System.out.println("1 * 2 = 2");
-        System.out.println("1 * 3 = 3");
-        System.out.println("1 * 4 = 4");
-        System.out.println("1 * 5 = 5");
-        System.out.println("1 * 6 = 6");
-        System.out.println("1 * 7 = 7");
-        System.out.println("1 * 8 = 8");
-        System.out.println("1 * 9 = 9");
+
+        /*
+        - возраст (подразумевается возраст человека); // byte
+
+- пол (обозначать будем символами - мужской сокращаем до М, женский до Ж); // char
+
+- рост (измерять будем в метрах); // float
+
+- количество кирпичей для постройки дома (небольшой одноэтажный дом площадью 100м2); // short
+
+- количество бактерий (измерять будем в КОЕ / г - такую величину можно встретить если почитать состав обычного йогурта, часто там можно встретить число 1 * 107 КОЕ / г); // double
+
+- расстояние до космических объектов (измерять будем в км); // long
+
+- разрешение на работу (рассматриваем всего 2 значения - или есть разрешение или его нет); // boolean
+
+- размер файла (измерять будем в байтах). // long
+
+- int ageHuman = 36;
+- char genderMale = 'M';
+- double heightHuman = 1.75;
+- int brick = 123445;
+- int bacterialCount = 9840000;
+- int solarDistance = 147790000;
+- boolean workAuth = true;
+- int fileSize = 64999483;
+         */
 
     }
 }
