@@ -11,6 +11,5 @@ public class Multiple {
         double solarDistance = 1.4779E+8;
         boolean workAuth = true;
         int fileSize = 64999483;
-
     }
 }
