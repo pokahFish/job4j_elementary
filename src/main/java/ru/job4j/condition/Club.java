@@ -14,6 +14,5 @@ public class Club {
         permission(true, false);
         permission(false, true);
         permission(false, false);
-
    }
 }
