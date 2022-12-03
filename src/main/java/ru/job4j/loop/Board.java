@@ -7,7 +7,7 @@ public class Board {
                 if ((i + j) % 2 == 0) {
                     System.out.print("X");
                 } else {
-                    System.out.print("0");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
@@ -15,8 +15,8 @@ public class Board {
     }
 
     public static void main(String[] args) {
-        paint(4, 4);
-        System.out.println();
         paint(3, 3);
+        System.out.println();
+        paint(4, 4);
     }
 }
