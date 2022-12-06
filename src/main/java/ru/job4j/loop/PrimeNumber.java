@@ -5,13 +5,9 @@ public class PrimeNumber {
         int count = 0;
         for (int number = 0; number <= finish; number++) {
             if (CheckPrimeNumber.check(number)) {
-                count += 1;
+                count++;
             }
         }
         return count;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(calc(5));
     }
 }
