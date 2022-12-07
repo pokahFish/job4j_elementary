@@ -6,7 +6,7 @@ public class Mortgage {
         int year = 0;
         double truPercent = percent / 100;
         while (amount > 0) {
-            amount = (int) (((amount * truPercent) + amount) - salary);
+            amount += (int) ((amount * truPercent) - salary);
             year++;
         }
         return year;
