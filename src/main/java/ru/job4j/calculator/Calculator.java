@@ -17,6 +17,7 @@ public class Calculator {
         minus(10, 0);
         minus(60, 10);
     }
+
 }
 
 
