@@ -2,7 +2,7 @@ package ru.job4j;
 
 public class ForFun {
 
-  public static void song(String[] args) {
+    public static void song(String[] args) {
         int beerNum = 99;
         String word = "бытолок (бутылки)";
 
@@ -21,7 +21,7 @@ public class ForFun {
         }
     }
 
-  public static void generate(String[] args) {
+    public static void generate(String[] args) {
         String[] wordListOne = {"круглосуточный", "трёх-звенный", "30000-футовый", "взаимный", "фронтенд", "динамичный", "проникающий"};
         String[] wordListTwo = {"выход из положения", "талант", "подход", "период времени", "пункт следования", "процесс", "пункт следования"};
         String[] wordListThree = {"уполномоченный", "центральный", "нестандартный ум", "сетевой", "общий", "ускоренный", "чистый продукт"};
@@ -39,26 +39,26 @@ public class ForFun {
 
     }
 
-  public static void someEx(String[] args) {
+    public static void someEx(String[] args) {
 
-            int x = 3;
-            while (x > 0) {
-                if (x > 2) {
-                    System.out.print("a");
-                    x = x - 1;
-                    System.out.print("-");
-                }
-                if (x == 2) {
-                    System.out.print("b c");
-                    x = x - 1;
-                    System.out.print("-");
-                }
-                if (x == 1) {
-                    System.out.print("d");
-                    x = x - 1;
-                }
+        int x = 3;
+        while (x > 0) {
+            if (x > 2) {
+                System.out.print("a");
+                x = x - 1;
+                System.out.print("-");
+            }
+            if (x == 2) {
+                System.out.print("b c");
+                x = x - 1;
+                System.out.print("-");
+            }
+            if (x == 1) {
+                System.out.print("d");
+                x = x - 1;
             }
         }
+    }
 
     public static void someExp2(String[] args) {
         int x = 0;
